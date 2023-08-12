@@ -44,7 +44,7 @@ public class StatsService {
                 maxMonth = i;
             }
         }
-        return maxMonth;
+        return maxMonth + 1;
     }
 
     public long salesBelowAverage(long[] sales) {

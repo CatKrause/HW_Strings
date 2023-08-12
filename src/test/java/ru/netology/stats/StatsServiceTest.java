@@ -27,8 +27,8 @@ public class StatsServiceTest {
     public void maxSalesMonthTest() {
         StatsService service = new StatsService();
         long sales[] = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        long expected = 6;
-        long actual = service.averageSalesAmount(sales);
+        long expected = 8;
+        long actual = service.maxSalesMonth(sales);
         Assertions.assertEquals(expected, actual);
     }
 
